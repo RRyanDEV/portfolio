@@ -3,7 +3,7 @@
 :root {
   --background: #0d0e10;
   --txtcolrdefault: #8d9094;
-  --bg-btn-template: #d7ff4a;
+  --colorAdd: #d7ff4a;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,6 +20,6 @@ body {
 }
 
 #btn-template {
-  background: var(--bg-btn-template);
+  background: var(--colorAdd);
   @apply hover:opacity-85 font-black text-black p-2 rounded-lg border-black;
 }
