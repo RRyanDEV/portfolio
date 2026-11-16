@@ -16,7 +16,7 @@ function ProfileComponent() {
                         <p className="lg:text-xl">|</p>
                         <p className="inline-flex items-center rounded-lg text-(--colorAdd)">{location}</p>
                     </div>
-                    <div id="profileTextResume" className="flex lg:w-[41%]">
+                    <div id="profileTextResume" className="flex">
                         <p>{bio}</p>
                     </div>
                     <div id="profileNavegation" className="flex py-2 lg:hidden">
