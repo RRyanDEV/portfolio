@@ -57,10 +57,19 @@ body {
 
 #btn-template {
   background: var(--colorAdd);
-  @apply hover:opacity-85 font-black text-black p-2 rounded-lg border-black;
+  font-weight: 600;
+  @apply flex hover:opacity-85 text-black items-center justify-center p-2 rounded-lg;
 }
 #sidebar {
   height: min(calc(100vh - var(--header-h)), 820px);
+}
+#contact_btn {
+  @apply max-lg:w-full max-md:w-full flex items-center hover:text-white rounded-xl justify-center w-25 border p-2.5 border-gray-600;
+}
+
+#acronym {
+  color: var(--colorAdd);
+  @apply p-2 text-xl rounded-sm border border-gray-600;
 }
 
 @theme inline {

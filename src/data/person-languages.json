@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "acronym": "PT",
+    "lang": "Português",
+    "level": "Nativo"
+  },
+  {
+    "id": 2,
+    "acronym": "EN",
+    "lang": "Inglês",
+    "level": "Intermediário"
+  }
+]

@@ -8,7 +8,7 @@ export default function Home() {
     <header>
       <NavbarComponent />
     </header>
-    <div id="col" className="max-sm:px-0 px-26.5 max-sm:grid-cols-1 grid grid-cols-2">
+    <div id="col" className="max-sm:px-0 px-26.5 max-md:grid-cols-1 max-sm:grid-cols-1 grid grid-cols-2">
       <aside id="sidebar">
         <ProfileComponent />
       </aside>

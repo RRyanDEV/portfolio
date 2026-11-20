@@ -1,20 +1,14 @@
 import { ScrollArea } from "@/components/ui/scroll-area"
-import ContactComponent from "@/components/Contact";
-import ProfileComponent from "../Profile";
+import ContactComponent from "./Contact";
+import EalComponent from "./EducationAndLanguages";
+
 
 
 export function ContentSectionComponent() {
     return (<>
-        <ScrollArea className="h-190 rounded-md">
-            <ProfileComponent />
+        <ScrollArea className="flex gap-48 h-190 rounded-md">
+            <EalComponent />
             <ContactComponent />
-            <ProfileComponent />
-            <ContactComponent />
-            <ProfileComponent />
-            <ContactComponent />
-            <ProfileComponent />
-            <ContactComponent />
-            <ProfileComponent />
         </ScrollArea>
     </>)
 }
